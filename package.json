@@ -1,0 +1,24 @@
+{
+  "name": "memory-pager",
+  "description": "Access memory using small fixed sized buffers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:datcxx/memory-pager.git"
+  },
+  "dependencies": {
+    "git@github.com:datcxx/buffer": "c1f214a9",
+    "git@github.com:datcxx/result": "ec7b0529"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "c++ -std=c++2a test/index.cxx -o test/index && ./test/index",
+    "install": ""
+  },
+  "flags": [
+    "-std=c++2a"
+  ],
+  "files": [],
+  "devDependencies": {
+    "git@github.com:heapwolf/cxx-tap": "07821de0"
+  }
+}
